@@ -23,8 +23,29 @@
   padding: 0;
   margin: 0;
   margin-bottom: .25em;
-  font-family: 'Raleway', sans-serif;
   font-size: 5vw;
   font-weight: normal;
   color: #00BA1F;
+}
+
+@media screen and (max-width: 865px){
+  .sumBox.balance h2 {
+    font-size: 4.5vw;
+  }
+  .sumBox h1 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 643px){
+  .sumBox {
+    float: none;
+    width: 100%;
+  }
+  .sumBox.balance h2 {
+    font-size: 20vw;
+  }
+  .sumBox h1 {
+    font-size: 4vw;
+  }
 }

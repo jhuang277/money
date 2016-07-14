@@ -36,6 +36,11 @@ ul.navBar li.right {float: right;}
 @media screen and (max-width: 643px){
     ul.navBar li.right,
     ul.navBar li {float: none;}
+
+    ul.navBar li a {
+      padding-top: .5em;
+      padding-bottom: .5em;
+    }
 }
 /*.navBar {
   width: 100%;
