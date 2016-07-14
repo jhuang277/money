@@ -1,1 +1,12 @@
-/* CSS declarations go here */
+
+.marginDiv {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+@media screen and (max-width: 643px){
+  .marginDiv {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}

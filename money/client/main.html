@@ -1,9 +1,19 @@
 <head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <title>Money</title>
 </head>
 
-<body>
 
-  {{> sumTable}}
+<body>
+  {{>navBar}}
+  {{>accountTitle}}
+  {{>sumBox}}
+
 
 </body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
